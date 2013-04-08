@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Click to Deblur Quora",
+  "description": "",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.quora.com/*"],
+      "js": ["jquery.js", "deblur.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://*.quora.com/*"
+  ],
+}
