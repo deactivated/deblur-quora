@@ -8,11 +8,15 @@
   "content_scripts": [
     {
       "matches": ["*://*.quora.com/*"],
-      "js": ["jquery.js", "deblur.js"]
+      "js": ["jquery.js", "spin.min.js", "deblur.js"]
     }
   ],
 
   "permissions": [
     "*://*.quora.com/*"
   ],
+
+  "web_accessible_resources": [
+    "injected.js", "styles.css"
+  ]
 }

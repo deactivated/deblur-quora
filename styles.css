@@ -1,0 +1,7 @@
+div.signup_cta_on_answer, div[id*=modal-signup-wrapper] {
+    display: none;
+}
+
+div.blurred_answer.with_signup {
+    min-height: 0;
+}
